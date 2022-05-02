@@ -1,0 +1,5 @@
+name: CoinAPI
+version: '${project.version}'
+main: de.maifii.coinapi.CoinPlugin
+api-version: 1.18
+authors: [ MaifiiDE ]
