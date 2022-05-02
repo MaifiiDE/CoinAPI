@@ -3,12 +3,11 @@ package de.maifii.coinapi.api;
 import java.util.UUID;
 
 public interface ICoinAPI {
+    Integer getCoins(UUID paramUUID);
 
-    Integer getCoins(UUID uuid);
+    void addCoins(UUID paramUUID, int paramInt);
 
-    void addCoins(UUID uuid, int count);
-    void removeCoins(UUID uuid, int count);
-    void setCoins(UUID uuid, int count);
+    void removeCoins(UUID paramUUID, int paramInt);
 
-
+    void setCoins(UUID paramUUID, int paramInt);
 }

@@ -1,17 +1,13 @@
 package de.maifii.coinapi.api;
 
 public class CoinAPI {
-
     private static ICoinAPI api;
 
-    public static ICoinAPI getApi() {
+    public static ICoinAPI getAPI() {
         return api;
     }
 
-
-    public static void setApi(ICoinAPI api) {
+    public static void setAPI(ICoinAPI api) {
         CoinAPI.api = api;
     }
-
-
 }
